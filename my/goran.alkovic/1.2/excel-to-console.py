@@ -129,7 +129,7 @@ def IspisTablice(filename, worksheet=None, max_rows = -1, max_columns = -1, max_
         else:
             displayMsg += "\n"
         print(displayMsg)
-    print(tabulate(workSheet, tablefmt="grid", floatfmt=".2f", stralign="center", numalign="center"))
+    print(tabulate(workSheet, tablefmt="fancy_grid", floatfmt=".2f", stralign="center", numalign="center"))
 
 def startProgram():
     # Čitanje argumenata
